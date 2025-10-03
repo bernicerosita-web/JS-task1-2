@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Personal Dashboard</title>
+   <script src="./dashboard.js"></script>
+  <link rel="stylesheet" href="dashboard.css">
+ 
+</head>
+<body>
+  <header>
+    <h1> Student Personal Dashboard</h1>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Profile</h2>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="number" id="birthYear" placeholder="Enter your birth year" required>
+        <input type="text" id="city" placeholder="Enter your city" required>
+        <button onclick="saveProfile()">Save Profile</button>
+    </section>
+
+    
+    <div class="card">
+      <h2>Age Checker</h2>
+      <button onclick="checkAge()">Check My Age</button>
+      <div id="ageOutput"></div>
+    </div>
+
+    
+    <div class="card">
+      <h2>Greeting</h2>
+      <button onclick="showGreeting()">Show Greeting</button>
+      <div id="greetingOutput"></div>
+    </div>
+
+    
+    <div class="card">
+      <h2>Calculator</h2>
+      <input type="number" id="num1" placeholder="First number">
+      <input type="number" id="num2" placeholder="Second number">
+      <select id="operation">
+        <option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="mul">×</option>
+        <option value="div">÷</option>
+      </select>
+      <button onclick="calculate()">Calculate</button>
+      <div id="calcOutput"></div>
+    </div>
+
+    
+    <div class="card">
+      <h2>Motivational Quote</h2>
+      <button onclick="showQuote()">Get Random Quote</button>
+      <div id="quoteOutput"></div>
+    </div>
+
+    <div class="card">
+      <h2>Stored Info (JSON)</h2>
+      <button onclick="showJSON()">Show JSON</button>
+      <pre id="jsonOutput"></pre>
+    </div>
+  </main>
+
+  
