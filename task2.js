@@ -1,4 +1,3 @@
-
 let num="12";
 let nums=Number(num);
 if(num%2==0){
