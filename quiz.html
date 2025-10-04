@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Event Registration & Quiz</title>
+  <script src="./quiz.js"></script>
+  <link rel="stylesheet" href="quiz.css"> 
+  
+</head>
+<body>
+
+  <section id="registration">
+    <h2>Registration Form</h2>
+    <label>Name: <input type="text" id="name" /></label><br/><br/>
+    <label>Email: <input type="email" id="email" /></label><br/><br/>
+    <label>Age: <input type="number" id="age" /></label><br/><br/>
+    <button onclick="register()">Register</button>
+    <p id="regError" class="error"></p>
+  </section>
+
+  <section id="quiz" class="hidden">
+    <h2>Quiz Section</h2>
+    <form id="quizForm"></form>
+    <button onclick="submitQuiz()">Submit Answers</button>
+    <p id="quizStatus"></p>
+  </section>
+
+  <section id="result" class="hidden">
+    <h2>Result Summary</h2>
+    <div id="resultDisplay" class="result"></div>
+    <h3>JSON Output</h3>
+    <pre id="jsonOutput"></pre>
+  </section>
+
+  
+</body>
+</html>

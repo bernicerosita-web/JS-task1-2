@@ -1,4 +1,5 @@
-body {
+ body 
+{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to right, #dfe9f3, #ffffff);
   margin: 0;
@@ -6,72 +7,6 @@ body {
   color: #2c3e50;
 }
 
-header {
-  background: #1abc9c;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
 
-header h1 {
-  margin: 0;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-
-main {
-  display: grid;
-  justify-content: center;
-  gap: 20px;
-  padding: 30px 10px; 
-}
-
-
-.card {
-  background: white;
-  width: 330px;
-  border-radius: 12px;
-  padding: 20px;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 20px rgba(0,0,0,0.15); 
-}
-
-.card h2 {
-  color: #1abc9c;
-  font-size: 22px;
-  padding-bottom: 5px;
-}
-
-
-input, select {
-  padding: 10px;
-  margin: 8px 0 ; 
-  width: 96%;
-  border: 1px solid #bdc3c7;
-  border-radius: 8px;
-}
-
-input:focus, select:focus {
-   border-color: #1abc9c; 
-}
-
-
-button {
-  background: #1abc9c;
-  color: white;
-  border-radius: 8px; 
-  border-color: #1abc9c;
-  padding: 10px 15px;
-  font-size: 14px;
-}
-
-button:hover {
-  background: #16a085;
-}
 
 
